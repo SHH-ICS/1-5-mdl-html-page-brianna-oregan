@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+
+  <head>
+    <meta name="viewport content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_orange-orange.min.css" />
+    <title>My Second Webpage with MDL</title>
+  </head>
+
+  <body>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <br>
+    <br>
+    <p>Here's a slider:</p>
+    <!-- Slider with Starting Value -->
+    <input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="25" tabindex="0">
+
+    <br>
+    <br>
+    <p>And here is a list:</p>
+
+    <!-- List with avatar and controls -->
+    <style>
+      .demo-list-control {
+        width: 300px;
+      }
+    
+      .demo-list-radio {
+        display: inline;
+      }
+    </style>
+    
+    <ul class="demo-list-control mdl-list">
+      <li class="mdl-list__item">
+        <span class="mdl-list__item-primary-content">
+          <i class="material-icons  mdl-list__item-avatar">blank</i>
+          Important thing #1
+        </span>
+        <span class="mdl-list__item-secondary-action">
+          <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="list-checkbox-1">
+            <input type="checkbox" id="list-checkbox-1" class="mdl-checkbox__input" checked />
+          </label>
+        </span>
+      </li>
+      <li class="mdl-list__item">
+        <span class="mdl-list__item-primary-content">
+          <i class="material-icons  mdl-list__item-avatar">blank</i>
+          Important thing #2
+        </span>
+        <span class="mdl-list__item-secondary-action">
+          <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="list-checkbox-2">
+            <input type="checkbox" id="list-checkbox-2" class="mdl-checkbox__input" checked />
+          </label>
+        </span>
+      </li>
+      <li class="mdl-list__item">
+        <span class="mdl-list__item-primary-content">
+          <i class="material-icons  mdl-list__item-avatar">blank</i>
+          Important thing #3
+        </span>
+        <span class="mdl-list__item-secondary-action">
+          <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="list-checkbox-3">
+            <input type="checkbox" id="list-checkbox-3" class="mdl-checkbox__input"/>
+          </label>
+        </span>
+      </li>
+    </ul>
+
+  </body>
+
+</html>
